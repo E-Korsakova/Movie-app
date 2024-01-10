@@ -1,8 +1,9 @@
+import { Layout } from 'antd';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <Layout className="App">
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -11,7 +12,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </Layout>
   );
 }
 
