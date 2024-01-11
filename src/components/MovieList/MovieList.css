@@ -1,0 +1,6 @@
+.movie-list {
+    justify-content: space-around;
+    gap: 35px;
+    flex-wrap: wrap;
+    width: 100%;
+}
