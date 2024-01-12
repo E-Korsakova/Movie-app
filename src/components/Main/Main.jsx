@@ -5,7 +5,7 @@ import MovieList from '../MovieList';
 export default function Main() {
   const { Content } = Layout;
   return (
-    <Content className="main">
+    <Content className="main" style={{ backgroundColor: '#fff' }}>
       <MovieList />
     </Content>
   );
